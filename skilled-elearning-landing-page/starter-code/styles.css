@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;1,600&family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@300;500;700;900&display=swap");
+
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "plus Jakarta Sans, sans-serif";
+  font-family: Plus Jakarta Sans;
+  background: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
+}
+button {
+  font-family: "plus Jakarta Sans, sans-serif";
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 16px 0;
+}
+header h2 {
+  color: #13183f;
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.get-started-btn {
+  border-radius: 28px;
+  background: var(--13183F, #13183f);
+  color: var(--FFFFFF, #fff);
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 175% */
+  padding: 9px 24px 11px;
+}
+
+/* **************** MAIN **************** */
+main {
+  margin-top: 38px;
+  padding: 0 16px; /* main shevwiot shignit  */
+}
+h1 {
+  color: #13183f;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.details {
+  margin-top: 26px;
+  color: #83869a;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+.general button {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  padding: 15px 37px;
+  margin-top: 24px;
+}
+
+.hero-img {
+  max-width: 100%;
+}
+
+.popular {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  padding: 24px 29px 32px 28px;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 32px;
+  color: white;
+}
+.popular h2 {
+  font-size: 2.4rem;
+}
+
+.packages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 80px;
+}
+
+.course-cards {
+  /* padding gauwere mtlian div shi arsebul zomebs */
+  padding: 56px 29px 32px 28px;
+  position: relative;
+  margin-top: 40px;
+  border-radius: 10px;
+  background: var(--FFFFFF, #fff);
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+
+.course-cards img {
+  /* absolutistvis mshobel divs unda qondes relative */
+  position: absolute;
+  top: -28px;
+}
+.course-cards h2 {
+  color: #13183f;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.course-cards p {
+  margin-top: 16px;
+  color: #83869a;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.course-cards button {
+  all: unset;
+  /* background-color: transparent;
+    border: none; */
+  color: #f74780;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 26px;
+}
+
+/* ************ FOOTER ************ */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #13183f;
+  padding: 16px 36px;
+
+}
+footer h2 {
+  color: #fff;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+}
+footer .get-started-btn{
+    background: var(--Gradient-2, linear-gradient(180deg, #4851FF 0%, #F02AA6 100%)); 
+}
