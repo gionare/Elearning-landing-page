@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-(![Alt text](assets/hafssxqxlupdyup650ad.jpg))
+![Alt text](assets/hafssxqxlupdyup650ad.jpg)
 
 
 ## Table of Contents
