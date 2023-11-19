@@ -1,37 +1,36 @@
-# Skilled E-Learning Landing Page
+# Skilled E-learning Landing Page
 
-Welcome to the Skilled E-Learning Landing Page repository! This project is a responsive landing page for an e-learning platform. It features a clean design and provides information about various courses.
-Table of Contents
+![Skilled E-learning Landing Page](./assets/image-hero-mobile.png)
 
-    Description
-    Demo
-    Installation
-    Usage
-    Contributing
-    License
+## Screenshot
 
-Description
+![Design preview for the Four card feature section coding challenge](![Alt text](assets/hafssxqxlupdyup650ad.jpg))
 
-The Skilled E-Learning Landing Page is a modern, responsive webpage designed to showcase in-demand courses. It is built using HTML and CSS, with a focus on clean design and user engagement.
-Demo
 
-Live Demo - Add a link to your live demo if applicable.
+## Table of Contents
 
-Screenshot - Add a screenshot or GIF if you have one.
-Installation
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Responsive Design](#responsive-design)
+- [Fonts](#fonts)
+- [Contributing](#contributing)
+- [License](#license)
 
-    Clone the repository: git clone https://github.com/your-username/skilled-landing-page.git
-    Open index.html in your preferred browser.
+## Description
 
-Usage
+This is the landing page for Skilled, an e-learning platform that offers modern courses across a range of in-demand skills. The goal is to maximize skills while minimizing the budget.
 
-Explore the different sections of the landing page, including the header, main content, and footer. The page is responsive and adjusts to various screen sizes.
-Contributing
+## Features
 
-If you'd like to contribute to this project, please follow these steps:
+- Engaging hero section introducing the platform's purpose.
+- Highlight of popular courses in animation, design, photography, crypto, and business.
+- Responsive design for a seamless experience on various devices.
 
-    Fork the repository
-    Create a new branch: git checkout -b feature/new-feature
-    Commit your changes: git commit -am 'Add new feature'
-    Push to the branch: git push origin feature/new-feature
-    Submit a pull request
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/skilled-elearning.git
