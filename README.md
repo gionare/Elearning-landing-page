@@ -1,10 +1,7 @@
 # Skilled E-learning Landing Page
 
-![Skilled E-learning Landing Page](./assets/image-hero-mobile.png)
-
 ## Screenshot
 
-![Design preview for the Four card feature section coding challenge]
 (![Alt text](assets/hafssxqxlupdyup650ad.jpg))
 
 
