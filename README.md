@@ -2,37 +2,96 @@
 
 Welcome to the Skilled E-Learning Landing Page repository! This project is a responsive landing page for an e-learning platform. It features a clean design and provides information about various courses.
 
-# Table of Contents
+## Screenshot
 
-    Description
-    Demo
-    Installation
-    Usage
-    Contributing
-    License
+![Alt text](assets/hafssxqxlupdyup650ad.jpg)
 
-Description
 
-The Skilled E-Learning Landing Page is a modern, responsive webpage designed to showcase in-demand courses. It is built using HTML and CSS, with a focus on clean design and user engagement.
-Demo
+## Table of Contents
 
-Live Demo - Add a link to your live demo if applicable.
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Responsive Design](#responsive-design)
+- [Fonts](#fonts)
+- [Contributing](#contributing)
+- [License](#license)
 
-Screenshot - Add a screenshot or GIF if you have one.
-Installation
+## Description
 
-    Clone the repository: git clone https://github.com/your-username/skilled-landing-page.git
-    Open index.html in your preferred browser.
+This is the landing page for Skilled, an e-learning platform that offers modern courses across a range of in-demand skills. The goal is to maximize skills while minimizing the budget.
 
-Usage
+## Features
 
-Explore the different sections of the landing page, including the header, main content, and footer. The page is responsive and adjusts to various screen sizes.
-Contributing
+- Engaging hero section introducing the platform's purpose.
+- Highlight of popular courses in animation, design, photography, crypto, and business.
+- Responsive design for a seamless experience on various devices.
+
+## Used Fonts
+
+The landing page uses the following Google Fonts:
+
+Barlow Semi Condensed
+Hanken Grotesk
+Plus Jakarta Sans
+Poppins
+Red Hat Display
+
+## Contributing
 
 If you'd like to contribute to this project, please follow these steps:
 
-    Fork the repository
-    Create a new branch: git checkout -b feature/new-feature
-    Commit your changes: git commit -am 'Add new feature'
-    Push to the branch: git push origin feature/new-feature
-    Submit a pull request
+Fork the repository.
+Create a new branch for your feature: git checkout -b feature-name
+Commit your changes: git commit -m 'Add new feature'
+Push to the branch: git push origin feature-name
+Submit a pull request.
+
+## Higlights 
+
+used simple and lightweight constucruction and styles to reach results.
+
+/* Body and button styling */
+body { font-family: "plus Jakarta Sans, sans-serif"; }
+button { font-family: "plus Jakarta Sans, sans-serif"; }
+
+/* Header styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 16px 0;
+}
+
+/* Main section styling */
+main { width: 375px; margin: 38px auto 80px; padding: 0 16px; }
+
+/* Course card styling */
+.course-cards {
+  width: 300px;
+  flex-shrink: 0;
+  padding: 56px 29px 32px 28px;
+  position: relative;
+  margin-top: 40px;
+  border-radius: 10px;
+  background: var(--FFFFFF, #fff);
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+
+/* Footer styling */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #13183f;
+  padding: 16px 36px;
+}
+
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/skilled-elearning.git
