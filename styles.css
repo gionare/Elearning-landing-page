@@ -42,7 +42,7 @@ header h2 {
 main {
   width: 375px; /* fixed width */
   margin: 38px auto 80px; /* 38-top, auto-center, 80-buttom */
-  padding: 0 16px; main shevwiot shignit 
+  padding: 0 16px; /*  main shevwiot shignit  */
 }
 h1 {
   color: #13183f;
@@ -51,7 +51,6 @@ h1 {
   font-weight: 800;
   line-height: normal;
 }
-
 .details {
   margin-top: 26px;
   color: #83869a;
@@ -71,8 +70,8 @@ h1 {
   max-width: 100%;
   height: auto;
 }
-
 .popular {
+  width: 300px;
   border-radius: 10px;
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   padding: 24px 29px 32px 28px;
@@ -85,7 +84,6 @@ h1 {
 .popular h2 {
   font-size: 2.4rem;
 }
-
 .packages {
   display: flex;
   flex-direction: column;
@@ -171,10 +169,9 @@ footer .get-started-btn {
   body {
     background-image: url("assets/image-hero-tablet.png"), linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
     background-repeat: no-repeat, repeat;
-    background-position: right top ;  
+    background-position: right -280px top -60px  ;  
     /* gauwere right -300px da top -80px */
   }
-
   header {
     padding: 24px 39px 0;
   }
@@ -190,7 +187,6 @@ footer .get-started-btn {
   .hero-img {
     display: none;
   }
-
   .packages{
     margin-top: 210px;
     flex-direction: row;
@@ -213,9 +209,9 @@ footer .get-started-btn {
    /* Your Desktop-specific styles go here */
 
    body {
-    background-image: url("assets/image-hero-tablet.png"), linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
+    background-image: url("assets/image-hero-desktop.png"), linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
     background-repeat: no-repeat, repeat;
-    background-position: right top ;  
+    background-position: right -300px top -150px ;  
     /* gauwere right -300px da top -80px */
   }
   header {
@@ -233,7 +229,7 @@ footer .get-started-btn {
    margin-top: 150px;
   }
   .packages{
-    margin-top: 150px;
+    margin-top: 250px;
     flex-direction: row;
     flex-wrap: wrap;
     /* mobiles gaps gadaeweros tavze */
