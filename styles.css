@@ -36,6 +36,7 @@ header h2 {
   font-weight: 700;
   line-height: 28px; /* 175% */
   padding: 9px 24px 11px;
+  border: none;
 }
 
 /* **************** MAIN **************** */
@@ -43,6 +44,7 @@ main {
   width: 375px; /* fixed width */
   margin: 38px auto 80px; /* 38-top, auto-center, 80-buttom */
   padding: 0 16px; /*  main shevwiot shignit  */
+  box-sizing: border-box;
 }
 h1 {
   color: #13183f;
@@ -145,6 +147,7 @@ footer {
   width: 100%;
   background-color: #13183f;
   padding: 16px 36px;
+  box-sizing: border-box;
 }
 footer h2 {
   color: #fff;
@@ -211,7 +214,7 @@ footer .get-started-btn {
    body {
     background-image: url("assets/image-hero-desktop.png"), linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
     background-repeat: no-repeat, repeat;
-    background-position: right -300px top -150px ;  
+    background-position: right -300px top -150px, 0 ;  
     /* gauwere right -300px da top -80px */
   }
   header {
